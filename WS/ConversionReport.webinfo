@@ -1,0 +1,29 @@
+﻿This report shows the steps taken to convert your Web application from ASP.NET 1.1 to ASP.NET 2.0. 
+There may be some unresolved conversion issues you will need to manually fix. 
+For more information, please refer to http://go.microsoft.com/fwlink/?LinkId=46995 or search for the help topic "Converting from Visual Studio .NET 2002 or 2003".
+Conversion Started on project file WS.csproj at August 27 2011, 15:27:41.
+
+=========================ERRORS===================
+
+=========================COMMENTS=================
+Read-only attribute of file c:\inetpub\wwwroot\Workflow\WS\Web.Config has been changed to read-write.
+Web.Config: Added 'xhtmlConformance' attribute.
+Web.Config: added a reference for assembly System.Messaging.
+Web.Config: added a reference for assembly System.Configuration.Install.
+Web.Config: added a reference for assembly System.Windows.Forms.
+Web.Config: added a reference for assembly System.DirectoryServices.
+Read-only attribute of file c:\inetpub\wwwroot\Workflow\WS\Global.asax has been changed to read-write.
+Removed attribute Codebehind from file Global.asax.
+Read-only attribute of file c:\inetpub\wwwroot\Workflow\WS\Workflow.asmx has been changed to read-write.
+Read-only attribute of file c:\inetpub\wwwroot\Workflow\WS\Workflow.asmx.cs has been changed to read-write.
+Added folder App_Code.
+Moved file Workflow.asmx.cs to the App_Code\ directory.
+Read-only attribute of file c:\inetpub\wwwroot\Workflow\WS\Global.asax.cs has been changed to read-write.
+Moved file Global.asax.cs to the App_Code\ directory.
+Read-only attribute of file c:\inetpub\wwwroot\Workflow\WS\AssemblyInfo.cs has been changed to read-write.
+Moved file AssemblyInfo.cs to the App_Code\ directory.
+Unable to convert user settings because user file C:\Documents and Settings\Luis Jiménez\VSWebCache\ALNARDO\Workflow\WS\WS.csproj.user was not found.
+Removed file Bin\WS.dll.
+Removed file Bin\WS.pdb.
+Removed file WS.csproj.
+Project WS.csproj has been converted successfully at August 27 2011, 15:27:46.

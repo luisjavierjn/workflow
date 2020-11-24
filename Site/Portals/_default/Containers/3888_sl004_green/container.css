@@ -1,0 +1,59 @@
+/* Box, Box bg, Border silver */
+.Contitle_Black_UC
+{
+	font-weight: bold;
+	font-size: 11px;
+	text-transform: uppercase;
+	color: #666666;
+	font-family: Tahoma, Arial;
+}
+/* Border color */
+.Contitle_Color_UC
+{
+	font-weight: bold;
+	font-size: 11px;
+	text-transform: uppercase;
+	color: #36750B;
+	font-family: Tahoma, Arial;
+}
+/* Border lightcolor */
+.Contitle_Silver_UC
+{
+	font-weight: bold;
+	font-size: 11px;
+	text-transform: uppercase;
+	color: #999999;
+	font-family: Tahoma, Arial;
+}
+/* Silver, Silver border, Silver bg */
+.Contitle_Black_11px
+{
+	font-weight: bold;
+	font-size: 11px;
+	color: #333333;
+	font-family: Tahoma, Arial;
+}
+/* Lightcolor, Lightcolor border, Lightcolor bg, Color, Color border, Color bg */
+.Contitle_White_11px
+{
+	font-weight: bold;
+	font-size: 11px;
+	color: #ffffff;
+	font-family: Tahoma, Arial;
+}
+.Contitle_Title
+{
+	font-weight: bold;
+	font-size: 12px;
+	color: #85B845;
+	font-family: Tahoma, Arial;
+}
+.Contitle_Admin
+{
+	font-weight: bold;
+	font-size: 16px;
+	color: #000000;
+	font-family: Tahoma, Arial;
+}
+
+

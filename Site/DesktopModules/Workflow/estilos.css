@@ -1,0 +1,400 @@
+
+body
+{
+	font-size: 11px;
+	font-family: Arial;
+}
+
+.BotonNormal
+{
+	font-weight: normal;
+	font-size: 11px;
+	width: 150px;
+	color: black;
+	font-style: normal;
+	font-family: Arial;
+	height: 25px;
+	font-variant: normal;
+}
+
+.TablaNormal
+{
+	border-right: 0px;
+	padding-right: 0px;
+	border-top: 0px;
+	padding-left: 0px;
+	font-weight: normal;
+	font-size: 11px;
+	padding-bottom: 0px;
+	border-left: 0px;
+	line-height: 22px;
+	padding-top: 0px;
+	border-bottom: 0px;
+	font-family: Arial;
+}
+.TablaNormalEspecial
+{
+	border-right: 0px;
+	padding-right: 0px;
+	border-top: 0px;
+	padding-left: 0px;
+	font-weight: normal;
+	font-size: 11px;
+	padding-bottom: 0px;
+	border-left: 0px;
+	padding-top: 0px;
+	border-bottom: 0px;
+	font-family: Arial;
+}
+.TablaFooter
+{
+	border-right: 0px;
+	padding-right: 0px;
+	border-top: 0px;
+	padding-left: 0px;
+	font-weight: normal;
+	font-size: 11px;
+	padding-bottom: 0px;
+	border-left: 0px;
+	padding-top: 0px;
+	border-bottom: 0px;
+	font-family: Arial;
+	padding:0px;
+	color: "#4A3C8C";
+	background-color: "#b5c7de";
+}
+
+.EtiquetaNormal
+{
+	font-size: 11px;
+	font-family: Arial;
+	text-align: left;
+}
+
+.CampoObligatorio
+{
+	font-size: 12px;
+	font-family: Arial;
+}
+
+.EtiquetaItems
+{
+	font-size: 11px;
+	font-family: Arial;
+	color: #4A3C8C;
+}
+
+.EtiquetaDerecha
+{
+	font-size: 11px;
+	font-family: Arial;	
+	text-align: right;
+}
+.EtiquetaIzquierda
+{
+	font-size: 11px;
+	font-family: Arial;	
+	text-align: left;
+}
+
+.EtiquetaCentrada
+{
+	font-size: 11px;
+	font-family: Arial;	
+	text-align: center;
+}
+
+.TextoNormal
+{
+	font-weight: normal;
+	font-size: 11px;
+	vertical-align: baseline;
+	width: 150px;
+	color: black;
+	font-style: normal;
+	font-family: Arial;
+	height: 21px;
+	text-align: left;
+	font-variant: normal;
+	background: White;
+}
+
+.TextoCajaNormal
+{
+	font-weight: normal;
+	font-size: 11px;
+	vertical-align: baseline;
+	color: black;
+	font-style: normal;
+	font-family: Arial;
+	text-align: left;
+	font-variant: normal;
+	background: White;
+}
+
+.TextoBloqueado
+{
+	font-weight: normal;
+	font-size: 11px;
+	vertical-align: baseline;
+	width: 150px;
+	color: black;
+	font-style: normal;
+	font-family: Arial;
+	height: 21px;
+	text-align: left;
+	font-variant: normal;
+	background: #E7E7FF;
+	color: #4A3C8C;
+}
+.TextoDerecha
+{
+	font-weight: normal;
+	font-size: 11px;
+	vertical-align: baseline;
+	width: 150px;
+	color: black;
+	font-style: normal;
+	font-family: Arial;
+	height: 21px;
+	text-align: right;
+	font-variant: normal;
+	background: White;
+
+}
+
+.TextoDerechaBloqueado
+{
+	font-weight: normal;
+	font-size: 11px;
+	vertical-align: baseline;
+	width: 150px;
+	font-style: normal;
+	font-family: Arial;
+	height: 21px;
+	text-align: right;
+	font-variant: normal;
+	background: #E7E7FF;
+	color: #4A3C8C;
+}
+
+.TextoDeshabilitado
+{
+	font-weight: normal;
+	font-size: 11px;
+	vertical-align: baseline;
+	width: 150px;
+	font-style: normal;
+	font-family: Arial;
+	height: 21px;
+	text-align: left;
+	font-variant: normal;
+	background: #E7E7FF;
+	color: #4A3C8C;
+	text-align: right;
+}
+
+
+.EtiquetaTitulo
+{
+	font-weight: bold;
+	font-size: 12px;
+	background: #4A3C8C;
+	color: #F7F7F7;
+	font-family: Arial;
+	width: 650px;
+}
+
+.EtiquetaTituloCentrado
+{
+	font-weight: bold;
+	font-size: 12px;
+	background: #4A3C8C;
+	color: #F7F7F7;
+	font-family: Arial;
+	width: 650px;
+	text-align: center;
+}
+
+.ComboNormal
+{
+	font-weight: normal;
+	font-size: 11px;
+	color: black;
+	font-style: normal;
+	font-family: Arial;
+	font-variant: normal;
+}
+
+.HypervinculoTitulo
+{
+	font-weight: normal;
+	font-size: 11px;
+	
+	color: #F7F7F7;
+	font-family: Arial;
+}
+
+.TablaAgregar
+{
+	font-size: 11px;
+	color: #F7F7F7;
+	font-family: Arial;
+	background-color: "#738a9c";
+}
+
+.GridNormal
+{
+	font-size: 11px;
+	font-family: Arial;
+}
+
+.ValidadorNormal
+{
+	font-size: 12px;
+	color: Red;
+}
+
+.ValidadorSumarioNormal
+{
+	background: Yellow;
+	font-size: 11px;
+	color: Red;
+}
+
+.LineaGridItem
+{
+	font-size: 11px;
+	font-family: Arial;
+	background-color: #e7e7ff;
+	color: #4A3C8C;
+}
+
+.LineaGridItemAlternado
+{
+	font-size: 11px;
+	font-family: Arial;
+	background-color: #F7F7F7;
+	color: #4A3C8C;
+}
+
+.TituloGrid
+{
+	font-size: 11px;
+	font-family: Arial;
+	background-color: #4A3C8C;
+	color: #F7F7F7;
+}
+
+.TituloGridCentrada
+{
+	font-size: 11px;
+	font-family: Arial;
+	background-color: #4A3C8C;
+	color: #F7F7F7;
+	text-align:center;
+}
+
+.TituloGridDerecha
+{
+	font-size: 11px;
+	font-family: Arial;
+	background-color: #4A3C8C;
+	color: #F7F7F7;
+	text-align: right;
+}
+
+.TextoEtiquetaDerecha
+{
+	background-color: Transparent;
+	border: none;
+	font-size: 11px;
+	font-family: Arial;	
+	text-align: right;
+	color: #4A3C8C;
+}
+
+.TextoEtiquetaIzquierda
+{
+	background-color: Transparent;
+	border: none;
+	font-size: 11px;
+	font-family: Arial;	
+	text-align: left;
+	color: #4A3C8C;
+}
+
+.TextoEtiquetaCentral
+{
+	background-color: Transparent;
+	border: none;
+	font-size: 11px;
+	
+	font-family: Arial;	
+	text-align: center;
+	color: #4A3C8C;
+}
+
+.TextoEtiquetaDerechaTitulo
+{
+	background-color: Transparent;
+	border: none;
+	font-size: 11px;
+	font-family: Arial;	
+	text-align: right;
+	color: #F7F7F7;
+}
+.ListaRadioBotones
+{
+	font-weight: normal;
+	font-size: 11px;
+	font-style: normal;
+	font-family: Arial;
+}
+
+.ListaSeleccionMultiple
+{
+	font-size: 11px;
+	font-family: Arial;
+	color: #4A3C8C;		
+	background: #E7E7FF;
+	height: 224px;
+	width: 272px;
+}
+.EtiquetaTituloSimple
+{
+	font-size: 11px;
+	background: #4A3C8C;
+	color: #F7F7F7;
+	font-family: Arial;
+	width: 650px;
+}
+.EtiquetaDerechaNegrita
+{
+	font-weight: bold;
+	font-size: 11px;
+	font-family: Arial;
+	text-align: right;
+}
+.EtiquetaNormalCentrado
+{
+	font-size: 11px;
+	font-family: Arial;
+	text-align: center;
+}
+.EtiquetaPequenaCentrado
+{
+	font-size: 10px;
+	font-family: Arial;
+	text-align: center;
+	height: 100%;
+	width: 100%;
+}
+.EtiquetaLimpiaCentrado
+{
+	font-size: 10px;
+	font-family: Arial;
+	text-align: center;
+	height: 50px;
+	width: 50px;
+}

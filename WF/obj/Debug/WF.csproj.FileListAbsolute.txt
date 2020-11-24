@@ -1,0 +1,16 @@
+C:\Inetpub\wwwroot\Workflow\WF\bin\Debug\Mensajeria.dll
+C:\Inetpub\wwwroot\Workflow\WF\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+C:\Inetpub\wwwroot\Workflow\WF\bin\Debug\Interop.MSXML2.dll
+C:\Inetpub\wwwroot\Workflow\WF\obj\Debug\ResolveAssemblyReference.cache
+C:\Inetpub\wwwroot\Workflow\WF\obj\Debug\Interop.MSXML2.dll
+C:\Inetpub\wwwroot\Workflow\WF\obj\Debug\WF.csproj.ResolveComReference.cache
+C:\Inetpub\wwwroot\Workflow\WF\obj\Debug\WinflowAC.Installer.resources
+C:\Inetpub\wwwroot\Workflow\WF\obj\Debug\WinflowAC.ProjectInstaller.resources
+C:\Inetpub\wwwroot\Workflow\WF\obj\Debug\WF.csproj.GenerateResource.Cache
+C:\Inetpub\wwwroot\Workflow\WF\obj\Debug\WinflowAC.WinflowTask.resources
+C:\Inetpub\wwwroot\Workflow\WF\bin\Debug\WinflowTask.exe.config
+C:\Inetpub\wwwroot\Workflow\WF\bin\Debug\WinflowTask.exe
+C:\Inetpub\wwwroot\Workflow\WF\bin\Debug\WinflowTask.pdb
+C:\Inetpub\wwwroot\Workflow\WF\bin\Debug\Mensajeria.pdb
+C:\Inetpub\wwwroot\Workflow\WF\obj\Debug\WinflowTask.exe
+C:\Inetpub\wwwroot\Workflow\WF\obj\Debug\WinflowTask.pdb

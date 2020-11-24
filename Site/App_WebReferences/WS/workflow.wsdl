@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://localhost/workflow/WS/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://localhost/workflow/WS/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">This is the Workflow WebService.</wsdl:documentation>
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://localhost/workflow/WS/">
+      <s:element name="EnviarMensajeXml">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="evt" type="tns:Eventos" />
+            <s:element minOccurs="0" maxOccurs="1" name="xmlParams" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:simpleType name="Eventos">
+        <s:restriction base="s:string">
+          <s:enumeration value="CREAR_SOLICITUD" />
+          <s:enumeration value="INCLUIR_SOLICITUD" />
+          <s:enumeration value="DESTINARIO_ENCONTRADO" />
+          <s:enumeration value="SOLICITUD_APROBADA" />
+          <s:enumeration value="SOLICITUD_CORREGIDA" />
+          <s:enumeration value="RECHAZADO_TOTAL" />
+          <s:enumeration value="RECHAZADO_PARCIAL" />
+          <s:enumeration value="ULTIMO_DESTINATARIO" />
+          <s:enumeration value="CAMBIO_DE_DESTINATARIO" />
+          <s:enumeration value="TIEMPO_LIMITE_ALCANZADO" />
+          <s:enumeration value="NUMERO_DE_VECES_TOPE" />
+          <s:enumeration value="NUMERO_DE_VECES_MENOR_AL_TOPE" />
+          <s:enumeration value="SUSPENDER_APROBACION" />
+          <s:enumeration value="SUSPENDER_CORRECCION" />
+          <s:enumeration value="REANUDAR_APROBACION" />
+          <s:enumeration value="REANUDAR_CORRECCION" />
+          <s:enumeration value="CANCELAR_WORKFLOW" />
+          <s:enumeration value="NEUTRO" />
+        </s:restriction>
+      </s:simpleType>
+      <s:element name="EnviarMensajeXmlResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="EnviarMensajeXmlResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="EnviarMensajeXmlSoapIn">
+    <wsdl:part name="parameters" element="tns:EnviarMensajeXml" />
+  </wsdl:message>
+  <wsdl:message name="EnviarMensajeXmlSoapOut">
+    <wsdl:part name="parameters" element="tns:EnviarMensajeXmlResponse" />
+  </wsdl:message>
+  <wsdl:portType name="WorkflowSoap">
+    <wsdl:operation name="EnviarMensaje">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Envia un msg con los parámetros en un xml</wsdl:documentation>
+      <wsdl:input name="EnviarMensajeXml" message="tns:EnviarMensajeXmlSoapIn" />
+      <wsdl:output name="EnviarMensajeXml" message="tns:EnviarMensajeXmlSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WorkflowSoap" type="tns:WorkflowSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="EnviarMensaje">
+      <soap:operation soapAction="http://localhost/workflow/WS/EnviarMensajeXml" style="document" />
+      <wsdl:input name="EnviarMensajeXml">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="EnviarMensajeXml">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WorkflowSoap12" type="tns:WorkflowSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="EnviarMensaje">
+      <soap12:operation soapAction="http://localhost/workflow/WS/EnviarMensajeXml" style="document" />
+      <wsdl:input name="EnviarMensajeXml">
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="EnviarMensajeXml">
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Workflow">
+    <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">This is the Workflow WebService.</wsdl:documentation>
+    <wsdl:port name="WorkflowSoap" binding="tns:WorkflowSoap">
+      <soap:address location="http://localhost/workflow/ws/workflow.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WorkflowSoap12" binding="tns:WorkflowSoap12">
+      <soap12:address location="http://localhost/workflow/ws/workflow.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

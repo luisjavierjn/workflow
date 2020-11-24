@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WF", "WF\WF.csproj", "{92320CFB-E5C9-429C-AEFC-8C13782AD7B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WM", "WM\WM.csproj", "{5ACBADD1-2822-40B8-8A71-6A94B330F8A5}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WS", "http://localhost/Workflow/WS", "{17E50794-C5AE-4321-8C62-EC0EF3A11BBD}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/WS"
+		Debug.AspNetCompiler.PhysicalPath = "WS\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\WS\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/WS"
+		Release.AspNetCompiler.PhysicalPath = "WS\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\WS\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "WS\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92320CFB-E5C9-429C-AEFC-8C13782AD7B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92320CFB-E5C9-429C-AEFC-8C13782AD7B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92320CFB-E5C9-429C-AEFC-8C13782AD7B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92320CFB-E5C9-429C-AEFC-8C13782AD7B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ACBADD1-2822-40B8-8A71-6A94B330F8A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ACBADD1-2822-40B8-8A71-6A94B330F8A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ACBADD1-2822-40B8-8A71-6A94B330F8A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ACBADD1-2822-40B8-8A71-6A94B330F8A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17E50794-C5AE-4321-8C62-EC0EF3A11BBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17E50794-C5AE-4321-8C62-EC0EF3A11BBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17E50794-C5AE-4321-8C62-EC0EF3A11BBD}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{17E50794-C5AE-4321-8C62-EC0EF3A11BBD}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

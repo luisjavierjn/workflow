@@ -1,0 +1,8 @@
+C:\Inetpub\wwwroot\Workflow\WM\bin\Debug\Mensajeria.dll
+C:\Inetpub\wwwroot\Workflow\WM\bin\Debug\Mensajeria.pdb
+C:\Inetpub\wwwroot\Workflow\WM\bin\Debug\Interop.MSXML2.dll
+C:\Inetpub\wwwroot\Workflow\WM\obj\Debug\ResolveAssemblyReference.cache
+C:\Inetpub\wwwroot\Workflow\WM\obj\Debug\Interop.MSXML2.dll
+C:\Inetpub\wwwroot\Workflow\WM\obj\Debug\WM.csproj.ResolveComReference.cache
+C:\Inetpub\wwwroot\Workflow\WM\obj\Debug\Mensajeria.dll
+C:\Inetpub\wwwroot\Workflow\WM\obj\Debug\Mensajeria.pdb
